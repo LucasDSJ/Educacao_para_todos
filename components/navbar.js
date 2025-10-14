@@ -1,0 +1,28 @@
+const NavbarComponent ={
+    template: `
+    <nav class="navbar navbar-expand-lg fixed-top" style="padding-left: 20px; padding-right: 20px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Educação para Todos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="material-symbols-outlined fs-5">menu</span>
+            </button>            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="chatbot.html">Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html">Cadastrar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    `
+};
