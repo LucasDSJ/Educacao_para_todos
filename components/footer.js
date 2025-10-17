@@ -1,6 +1,6 @@
 const FooterComponent ={
     template: `
-    <footer class="text-center py-3 mt-5">
+    <footer class="text-center py-3">
         FalconProject
     </footer>
     `
